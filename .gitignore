@@ -5,5 +5,4 @@ puphpet/files/dot/ssh/*.ppk
 puphpet/files/dot/ssh/*.pub
 puphpet/files/dot/ssh/id_rsa
 puphpet/files/dot/ssh/root_id_rsa
-puphpet/puppet/modules
 
