@@ -121,7 +121,7 @@ nginx:
     vhosts:
         nxv_0wgdbsi11aru:
             server_name: dev.scgames.com
-            www_root: /var/www/projects
+            www_root: /var/www/projects/project-example
             listen_port: '80'
             client_max_body_size: 1m
             ssl: '0'
