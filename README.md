@@ -43,7 +43,6 @@ Location: /var/www
   * VB 4.3.36 [Windows](https://s3.amazonaws.com/scasinos-dev/vagrant/VirtualBox-4.3.36-105129-Win.exe)
   * VB 5.0 [Mac](http://download.virtualbox.org/virtualbox/5.0.0/VirtualBox-5.0.0-101573-OSX.dmg)
 * Install [Vagrant Latest](https://www.vagrantup.com/downloads.html)
-* [SCVagrant Package](https://s3.amazonaws.com/scasinos-dev/vagrant/scvagrant.zip)
 
 ###Local Setup
 Clone repo into a directory of your choice
