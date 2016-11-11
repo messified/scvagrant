@@ -64,7 +64,6 @@ cd ~/scvagrant/
 
 Start vagrant (Initial start will take a few minutes)
 ```
-cd /<scvagrant-root-dir>
 vagrant up
 ```
 
