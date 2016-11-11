@@ -61,12 +61,7 @@ Start vagrant (Initial start will take a few minutes)
 cd /<scvagrant-root-dir>
 vagrant up
 ```
-Install development dependencies within the Ubuntu VM
-```
-vagrant ssh
-cd /var/www/
-sh setup.sh
-```
+
 ##Helpful References
 ###SSH into your vagrant box
 ```

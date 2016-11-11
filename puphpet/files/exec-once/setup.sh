@@ -1,5 +1,8 @@
 #!/bin/bash
 
+sudo apt-get update
+sudo apt-get -y upgrade
+
 #NPM Packages
 sudo npm install -g gulp-cli
 sudo npm install -g typescript
@@ -9,6 +12,8 @@ sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 0C49F3730359A1
 echo "deb http://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/testing multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-3.4.list
 sudo apt-get update
 sudo apt-get install -y --allow-unauthenticated mongodb-org
-sudo cp mongod.service /lib/systemd/system/
+sudo cp mongod.service ~/lib/systemd/system/
+
+sudo reboot
 
 exit
