@@ -1,4 +1,4 @@
-SC Vagrant Development
+SC Vagrant Dev-Env
 ======================
 
 ###Vagrant Box Specs
