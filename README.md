@@ -33,7 +33,7 @@ SC Vagrant Development
 ###Default VM Web Access
 ```
 IP: 192.168.56.103
-Domain: dev.scgames.com
+Domain: dev.scvagrant.com
 Location: /var/www
 ```
 
