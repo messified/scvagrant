@@ -120,7 +120,7 @@ nginx:
     upstreams: {  }
     vhosts:
         nxv_0wgdbsi11aru:
-            server_name: dev.scgames.com
+            server_name: dev.scvagrant.com
             www_root: /var/www/sync/project-example
             listen_port: '80'
             client_max_body_size: 1m
