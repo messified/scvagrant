@@ -80,6 +80,6 @@ vagrant ssh
 ###Local Host File (optional)
 Once that's finished add this to your local machine's host file.
 ```
-192.168.56.103   dev.scgames.com
+192.168.56.103   dev.scvagrant.com
 ```
 

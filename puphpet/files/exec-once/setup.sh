@@ -14,5 +14,5 @@ sudo apt-get install -y mongodb-org
 sudo cp /var/www/mongod.service /lib/systemd/system/
 
 sudo apt-get -y upgrade
-sudo reboot
+
 exit
