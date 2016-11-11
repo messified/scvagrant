@@ -11,7 +11,7 @@ SC Vagrant Dev-Env
 
 ###SCVagrant
 ```
-.scvagrant
+.
 ├── README.md
 ├── Vagrantfile
 ├── puphpet
