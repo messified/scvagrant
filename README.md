@@ -4,10 +4,10 @@ SC Vagrant Development
 ###Vagrant Box Specs
 * Ubuntu v16.04 x64
 * Nginx v1.10.2
-* Nodejs v4
+* Nodejs v4.6.1
 * NPM v2.15.11
 * MongoDB v3.4.0-rc2
-* Tsc v2.0.8
+* TSC v2.0.8
 
 ###SCVagrant Package
 ```
@@ -46,16 +46,23 @@ Location: /var/www
 * [SCVagrant Package](https://s3.amazonaws.com/scasinos-dev/vagrant/scvagrant.zip)
 
 ###Local Setup
-
-Once all dependencies have been installed, download and unarchive the SCVagrant Package in a directory of your choice.
-
-* [SCVagrant Package](https://s3.amazonaws.com/scasinos-dev/vagrant/scvagrant.zip)
-
-##Build Vagrant VM
-Set scvagrant directory permissions
+Clone repo into a directory of your choice
 ```
-sudo chmod -R 777 <scvagrant-root-dir>
+git clone git@github.com:messified/scvagrant.git
 ```
+
+Set write permissions
+```
+sudo chmod -R 777 ~/scvagrant/
+```
+
+Change to the repo's directory
+```
+cd ~/scvagrant/
+```
+
+###Start Vagrant
+
 Start vagrant (Initial start will take a few minutes)
 ```
 cd /<scvagrant-root-dir>
@@ -70,7 +77,7 @@ cd /<scvagrant-root-dir>
 vagrant ssh
 ```
 
-###Local Hostfile (optional)
+###Local Host File (optional)
 Once that's finished add this to your local machine's host file.
 ```
 192.168.56.103   dev.scgames.com

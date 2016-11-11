@@ -19,7 +19,7 @@ showhelp () {
 # Check arguments
 if [ $1 ] ; then
     deploy_destdir=$1
-# This breaks on projects::maven when using more than one deploy destinations
+# This breaks on sync::maven when using more than one deploy destinations
 #    [ $deploy_root ] && deploy_destdir=$deploy_root
 else
     showhelp
