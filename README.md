@@ -9,7 +9,7 @@ SC Vagrant Dev-Env
 * MongoDB v3.4.0-rc2
 * TSC v2.0.8
 
-###SCVagrant Package
+###SCVagrant
 ```
 .scvagrant
 ├── README.md
