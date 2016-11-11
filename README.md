@@ -14,21 +14,22 @@ SC Vagrant Development
 .scvagrant
 ├── README.md
 ├── Vagrantfile
-├── projects
-│   ├── mongod.service
-│   └── setup.sh
-└── puphpet
-    ├── config.yaml
-    ├── files
-    ├── puppet
-    ├── ruby
-    ├── shell
-    └── vagrant
+├── puphpet
+│   ├── config.yaml
+│   ├── files
+│   ├── puppet
+│   ├── ruby
+│   ├── shell
+│   └── vagrant
+└── sync
+    ├── html
+    ├── mongod.service
+    └── projects
 
 ```
 ###Synced Directory
 ```
-(Local) <scvagrant-root-dir>/projects -> (Ubuntu VM) /var/www
+/sync -> /var/www
 ```
 ###Default VM Web Access
 ```
@@ -70,7 +71,7 @@ vagrant up
 ##Helpful References
 ###SSH into your vagrant box
 ```
-cd /<scvagrant-root-dir>
+cd /<scvagrant-root-dir> 
 
 vagrant ssh
 ```
