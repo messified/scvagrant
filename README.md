@@ -31,7 +31,7 @@ SC Vagrant Dev-Env
 ```
 /sync -> /var/www
 ```
-###Default VM Web Access
+###Default Web Access
 ```
 IP: 192.168.56.103
 Domain: dev.scvagrant.com
