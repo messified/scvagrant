@@ -1,15 +1,20 @@
 SC Vagrant Dev-Env
 ======================
 
-###Vagrant Box Specs
+### Vagrant Box Specs
 * Ubuntu v16.04 x64
-* Nginx v1.10.2
-* Nodejs v4.6.1
-* NPM v2.15.11
-* MongoDB v3.4.0-rc2
-* TSC v2.0.8
+* Nginx
+* Nodejs Latest Stable
+* NPM Latest Stable
+* MongoDB Latest Stable
+* Typescript
+* Typings
+* Gulp
+* Angular CLI
+* Yeoman
+* Yarn
 
-###SCVagrant
+### SCVagrant
 ```
 .
 ├── README.md
@@ -25,35 +30,31 @@ SC Vagrant Dev-Env
     ├── html
     ├── mongod.service
     └── projects
-
 ```
-###Synced Directory
+### Synced Directory
+
 ```
 /sync -> /var/www
 ```
-###Default Web Access
+
+### Default Web Access
 ```
 IP: 192.168.56.103
 Domain: dev.scvagrant.com
 Location: /var/www
 ```
 
-##Dependencies
+## Dependencies
 
 * Install VirtualBox
   * VB 4.3.36 [Windows](https://s3.amazonaws.com/scasinos-dev/vagrant/VirtualBox-4.3.36-105129-Win.exe)
   * VB 5.0 [Mac](http://download.virtualbox.org/virtualbox/5.0.0/VirtualBox-5.0.0-101573-OSX.dmg)
 * Install [Vagrant Latest](https://www.vagrantup.com/downloads.html)
 
-###Local Setup
+### Local Setup
 Clone repo into a directory of your choice
 ```
 git clone git@github.com:messified/scvagrant.git
-```
-
-Set write permissions
-```
-sudo chmod -R 777 ~/scvagrant/
 ```
 
 Change to the repo's directory
@@ -61,17 +62,22 @@ Change to the repo's directory
 cd ~/scvagrant/
 ```
 
-###Start Vagrant
-
-Start vagrant (Initial start will take a few minutes)
+### Start Vagrant
+(Initial start will take a few minutes)
 ```
 vagrant up
+```
+
+### Finish VM Setup
+```
+vagrant ssh
+sh /var/www/finish_setup.sh
 ```
 
 ##Helpful References
 ###SSH into your vagrant box
 ```
-cd /<scvagrant-root-dir> 
+cd /<scvagrant-root-dir>
 
 vagrant ssh
 ```
