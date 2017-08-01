@@ -7,6 +7,7 @@ SC Vagrant - Stations Development
 * Nodejs Latest Stable
 * NPM Latest Stable
 * MongoDB Latest Stable
+* Docker CE Latest Stable
 * Typescript
 * Typings
 * Gulp
