@@ -1,5 +1,5 @@
-SC Vagrant Dev-Env
-======================
+SC Vagrant - Stations Development
+=================================
 
 ### Vagrant Box Specs
 * Ubuntu v16.04 x64
@@ -14,23 +14,6 @@ SC Vagrant Dev-Env
 * Yeoman
 * Yarn
 
-### SCVagrant
-```
-.
-├── README.md
-├── Vagrantfile
-├── puphpet
-│   ├── config.yaml
-│   ├── files
-│   ├── puppet
-│   ├── ruby
-│   ├── shell
-│   └── vagrant
-└── sync
-    ├── html
-    ├── mongod.service
-    └── projects
-```
 ### Synced Directory
 
 ```
@@ -46,13 +29,12 @@ Location: /var/www
 
 ## Dependencies
 
-* Install VirtualBox
-  * VB 4.3.36 [Windows](https://s3.amazonaws.com/scasinos-dev/vagrant/VirtualBox-4.3.36-105129-Win.exe)
-  * VB 5.0 [Mac](http://download.virtualbox.org/virtualbox/5.0.0/VirtualBox-5.0.0-101573-OSX.dmg)
+* Install VirtualBox (Note you must disable Hyper-V before installing)
+  * VB Windows x64 [Download Installer](http://download.virtualbox.org/virtualbox/5.1.26/VirtualBox-5.1.26-117224-Win.exe)
 * Install [Vagrant Latest](https://www.vagrantup.com/downloads.html)
 
 ### Local Setup
-Clone repo into a directory of your choice
+Clone Repository
 ```
 git clone git@github.com:messified/scvagrant.git
 ```
