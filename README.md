@@ -57,15 +57,16 @@ vagrant ssh
 sh /var/www/finish_setup.sh
 ```
 
-##Helpful References
-###SSH into your vagrant box
+## Helpful References
+
+### SSH into your vagrant box
 ```
 cd /<scvagrant-root-dir>
 
 vagrant ssh
 ```
 
-###Local Host File (optional)
+### Local Host File (optional)
 Once that's finished add this to your local machine's host file.
 ```
 192.168.56.103   dev.scvagrant.com
