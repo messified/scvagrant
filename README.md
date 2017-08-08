@@ -57,6 +57,10 @@ vagrant up
 Using powershell SSH into your Vagrant Instance
 ```
 vagrant ssh
+```
+
+Execute bash script
+```
 sh /var/www/finish_setup.sh
 ```
 
