@@ -28,13 +28,15 @@ Domain: dev.scvagrant.com
 Location: /var/www
 ```
 
-## Dependencies
+## Getting Started
+
+### Dependencies
 
 * Install VirtualBox (Note you must disable Hyper-V before installing)
   * VB Windows x64 [Download Installer](http://download.virtualbox.org/virtualbox/5.1.26/VirtualBox-5.1.26-117224-Win.exe)
 * Install [Vagrant Latest](https://www.vagrantup.com/downloads.html)
 
-### Local Setup
+### 1. Local Setup
 Clone Repository
 ```
 git clone git@github.com:messified/scvagrant.git
@@ -45,25 +47,37 @@ Change to the repo's directory
 cd ~/scvagrant/
 ```
 
-### Start Vagrant
+### 2. Start Vagrant
 (Initial start will take a few minutes)
 ```
 vagrant up
 ```
 
-### Finish VM Setup
+### 3. Run Script
+Using powershell SSH into your Vagrant Instance
 ```
 vagrant ssh
 sh /var/www/finish_setup.sh
 ```
 
+## Usage
+
+Within your `.\scvagrant` directory there's a folder named `sync` (location: `.\scvagrant\sync`) this directory is the link/synced directory between the Vagrant VM and your local PC. The `sync` directory is where all your projects must reside for the Vagrant instance (Ubuntu Server) to pickup.
+
+From the vagrant(Ubuntu Server) perspective, the `sync` directory is the `/var/www` directory. I've included an example project within the `.\sync\projects\project-example\` directory. If you SSH into your vagrant box the directory would be `/var/www/projects/project-example`.
+
 ## Helpful References
 
-### SSH into your vagrant box
-```
-cd /<scvagrant-root-dir>
+Note: Run all vagrant commands within the scvagrant directory (Best used with Powershell)
 
+### SSH into your Vagrant Instance
+```
 vagrant ssh
+```
+
+### Restart Vagrant
+```
+vagrant reload
 ```
 
 ### Local Host File (optional)
