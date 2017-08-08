@@ -1,5 +1,7 @@
 #!/bin/sh
 
+set -e
+
 echo 'Installing Docker CE'
 sudo apt-get remove -y docker docker-engine docker.io
 sudo apt-get install -y \

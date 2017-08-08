@@ -1,5 +1,7 @@
 #!/bin/sh
 
+set -e
+
 echo 'Installing Development Dependencies'
 sudo npm install -g yarn
 sudo npm install -g typescript
