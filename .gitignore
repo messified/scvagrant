@@ -1,8 +1,10 @@
 .idea
 .vagrant
+.vscode
 projects/*
 puphpet/files/dot/ssh/*.ppk
 puphpet/files/dot/ssh/*.pub
 puphpet/files/dot/ssh/id_rsa
 puphpet/files/dot/ssh/root_id_rsa
-
+sync/projects/drupal-8.3.6.tar.gz
+sync/projects/elitestatus/
