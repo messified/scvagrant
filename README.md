@@ -33,6 +33,7 @@ Location: /var/www
 #### VirtualBox
 * Install VirtualBox (Note you must disable Hyper-V before installing)
   * VB Windows x64 [Download Installer](http://download.virtualbox.org/virtualbox/5.1.26/VirtualBox-5.1.26-117224-Win.exe)
+  * VB Mac OSX [Download Installer](http://download.virtualbox.org/virtualbox/5.1.26/VirtualBox-5.1.26-117224-OSX.dmg)
 
 #### Vagrant
 * Install [Vagrant Latest](https://www.vagrantup.com/downloads.html)
