@@ -37,6 +37,12 @@ Location: /var/www
 #### Vagrant
 * Install [Vagrant Latest](https://www.vagrantup.com/downloads.html)
 
+#### VSCode Global Settings
+Add this to your global settings.
+```
+"files.encoding": "utf8"
+```
+
 ## Build Vagrant Box
 
 ### 1. Local Setup
