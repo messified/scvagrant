@@ -32,6 +32,7 @@ Location: /var/www
 
 #### VirtualBox
 * Install VirtualBox (Note you must disable Hyper-V before installing)
+  * [Disabling Hyper-V](http://www.poweronplatforms.com/enable-disable-hyper-v-windows-10-8/)
   * VB Windows x64 [Download Installer](http://download.virtualbox.org/virtualbox/5.1.26/VirtualBox-5.1.26-117224-Win.exe)
   * VB Mac OSX [Download Installer](http://download.virtualbox.org/virtualbox/5.1.26/VirtualBox-5.1.26-117224-OSX.dmg)
 
