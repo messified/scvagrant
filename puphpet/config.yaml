@@ -28,8 +28,8 @@ vagrantfile:
                                 vflmnfp_e9nqk66655iv:
                                     host: '9252'
                                     guest: '22'
-                        memory: '1024'
-                        cpus: '2'
+                        memory: '3072'
+                        cpus: '4'
         provision:
             puppet:
                 manifests_path: puphpet/puppet/manifests
@@ -298,7 +298,7 @@ python:
     packages: {  }
     versions: {  }
 nodejs:
-    install: '1'
+    install: '0'
     settings:
         version: '4'
     npm_packages: {  }
