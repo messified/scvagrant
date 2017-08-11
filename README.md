@@ -67,17 +67,14 @@ sudo apt-get upgrade -y
 ```
 
 During the upgrade process it will most likely prompt you to install GRUB
-<p align="center">
-  <img src"https://s3.amazonaws.com/scasinos-dev/Grub-screen.PNG" alt="grub-screenshot">
-</p>
+
+![grub-screenshot](https://s3.amazonaws.com/scasinos-dev/Grub-screen.PNG)
 
 Select where to install GRUB. Choose the second option
 ```
 /dev/sda1 (510MB; /boot)
 ```
-<p align="center">
-  <img src"https://s3.amazonaws.com/scasinos-dev/Grub-selection.PNG" alt="grub-screenshot">
-</p>
+![grub-screenshot](https://s3.amazonaws.com/scasinos-dev/Grub-selection.PNG)
 
 Once the upgrade process is complete we'll need to restart the Vagrant box.
 ```
