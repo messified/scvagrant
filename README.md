@@ -45,6 +45,18 @@ Add this to your global settings.
 "files.encoding": "utf8"
 ```
 
+## Proxy Config (Optional)
+```
+vagrant plugin install vagrant-proxyconf
+```
+
+Uncomment these lines in the ./scvagrant/Vagrantfile
+```
+config.proxy.http     = "http://wsproxy:8080"
+config.proxy.https    = "https://wsproxy:8080"
+config.proxy.no_proxy = "localhost,127.0.0.1"
+```
+
 ## Build Vagrant Box
 
 ### 1. Local Setup
