@@ -9,6 +9,10 @@ require "#{dir}/puphpet/ruby/puppet.rb"
 
 configValues = YAML.load_file("#{dir}/puphpet/config.yaml")
 
+# config.proxy.http     = "http://wsproxy:8080"
+# config.proxy.https    = "https://wsproxy:8080"
+# config.proxy.no_proxy = "localhost,127.0.0.1"
+
 provider = ENV['VAGRANT_DEFAULT_PROVIDER'] ? ENV['VAGRANT_DEFAULT_PROVIDER'] : 'local'
 if File.file?("#{dir}/puphpet/config-#{provider}.yaml")
   custom = YAML.load_file("#{dir}/puphpet/config-#{provider}.yaml")
